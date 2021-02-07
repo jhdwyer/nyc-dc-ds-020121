@@ -16,12 +16,16 @@ Let's go over some common git commands!
 7. Run `git remote -v` to see the addresses for the repositories on GitHub to which your local copy is tied.
 
 8. Make some modifications.
+	VIM "file"
+	i to insert mode
+	esc :wq to quit
 
 9. Run `git status` to see where things stand with respect to git tracking.
 
 10. Run `git add <file>` to add <file> or `git add .` to add everything. `git add <>` tells git what to track.
 
 11. Run `git status` again. Are things different now?
+	if mistake can git reset
 
 12. Did you make a mistake? Run `git reset` to undo the last `git add`. Want to go back further to a previous commit? You can add a commit hash to the command: `git reset <hash>`. The hashes of all commits can be seen by running `git log`.
 
